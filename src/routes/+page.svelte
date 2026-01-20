@@ -215,17 +215,28 @@
           <p class="text-gray-400 text-sm mb-8 leading-relaxed">
             Go live in minutes with secure digital ticketing, M-PESA integration, and multi-channel distribution. We handle payments, security, and settlements.
           </p>
-          <div class="relative h-64 flex items-center justify-center">
-             <!-- Central M-PESA Icon -->
-             <div class="relative z-10 w-24 h-24 bg-green-500 rounded-2xl flex items-center justify-center">
-                <span class="text-white font-bold text-2xl">M</span>
-             </div>
-             <!-- Orbiting Payment Methods -->
-             <div class="absolute inset-0 animate-spin-slow">
-                <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center text-white text-xs font-bold">Card</div>
-                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-4 w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center text-white text-xs font-bold">Web</div>
-                <div class="absolute left-0 top-1/2 -translate-x-4 -translate-y-1/2 w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center text-white text-xs font-bold">App</div>
-                <div class="absolute right-0 top-1/2 translate-x-4 -translate-y-1/2 w-12 h-12 bg-pink-500 rounded-lg flex items-center justify-center text-white text-xs font-bold">Social</div>
+          <div class="bg-gray-800/50 rounded-xl p-6 border border-gray-700 relative">
+             <div class="space-y-3">
+                <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <span class="text-sm text-gray-300">Go live in minutes with no coding</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <span class="text-sm text-gray-300">M-PESA, cards, and international payments</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <span class="text-sm text-gray-300">Secure digital tickets with fraud protection</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <span class="text-sm text-gray-300">Multi-channel distribution (web, app, social)</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                    <span class="text-sm text-gray-300">Post-event settlement guarantee</span>
+                </div>
              </div>
           </div>
         </div>
